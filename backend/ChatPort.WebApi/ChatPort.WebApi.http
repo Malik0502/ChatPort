@@ -1,0 +1,6 @@
+@ChatPort.WebApi_HostAddress = http://localhost:5179
+
+GET {{ChatPort.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

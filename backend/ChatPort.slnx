@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/00-Common-Layer/">
+    <Project Path="ChatPort.Common/ChatPort.Common.csproj" Id="b712afd1-24d3-4400-9ed8-f9ccc88dcc24" />
+  </Folder>
+  <Folder Name="/01-Application-Layer/">
+    <Project Path="ChatPort.WebApi/ChatPort.WebApi.csproj" Id="3cd225d2-b5cf-4a70-90c5-83a41d582e20" />
+  </Folder>
+  <Folder Name="/02-Service-Layer/">
+    <Project Path="ChatPort.Logic.Contracts/ChatPort.Logic.Contracts.csproj" Id="92a40cbf-0216-4aab-94ea-cb307db66ffa" />
+    <Project Path="ChatPort.Logic.Tests/ChatPort.Logic.Tests.csproj" Id="984b76ed-3d53-46ab-b408-068020210685" />
+    <Project Path="ChatPort.Logic/ChatPort.Logic.csproj" Id="367bf6a3-a791-48df-9781-488b961d91c5" />
+  </Folder>
+  <Folder Name="/03-Data-Layer/">
+    <Project Path="ChatPort.Data.Contracts/ChatPort.Data.Contracts.csproj" Id="b219eef8-dd65-4c59-9aa2-9ab312e933dc" />
+    <Project Path="ChatPort.Data.Tests/ChatPort.Data.Tests.csproj" Id="4016ba4f-4685-4535-9ba6-6a8ac16c06d5" />
+    <Project Path="ChatPort.Data/ChatPort.Data.csproj" Id="e7796477-12b7-4d7a-8f42-97b410931eb9" />
+  </Folder>
+</Solution>
